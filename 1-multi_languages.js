@@ -1,3 +1,3 @@
-const myVar={"C is fun" + "Python is cool" + "Javascript is amazing"};
 
-console.log(myVar);
+
+console.log("C is fun"/n"Python is cool"./n"Javascript is amazing.");
