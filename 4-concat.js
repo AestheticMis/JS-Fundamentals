@@ -1,3 +1,3 @@
 
-const_array("Python","fun");
+const myArray= ["Python","fun"];
 console.log('${process.argv[2]} is ${process.argv[3]}');
