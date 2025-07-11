@@ -1,10 +1,8 @@
+const a = parseInt(process.argv[2]);
+const b = parseInt(process.argv[3]);
 
-const size = parseInt(process.argv[2]);
-
-if (isNaN(size)) {
-  console.log("Missing size");
-} else {
-  for (let i = 0; i < size; i++) {
-    console.log("X".repeat(size));
-  }
+function add(a, b) {
+  return a + b;
 }
+
+console.log(add(a, b));
