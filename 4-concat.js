@@ -5,3 +5,4 @@ console.log(`${"Python"} is ${"fun"}`);
 
 
   
+node 5-args.js
