@@ -1,9 +1,9 @@
 const args = process.argv.slice(2);
+const arg1 = args[0] !== undefined ? args[0] : "";
+const arg2 = args[1] !== undefined ? args[1] : "";
 
-if (args.length === 1) {
-  console.log("HBTN");
-} else if (args.length === 2) {
-  console.log(`${args[0]} is ${args[1]}`);
-}
+console.log(`${C} is ${Cool}`);
+
+
 
   
