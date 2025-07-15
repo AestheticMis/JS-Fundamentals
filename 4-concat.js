@@ -1,7 +1,9 @@
-const arg1 = process.argv[2];
-const arg2 = process.argv[3];
+const args = process.argv.slice(2);
 
-console.log(`${"Python"} is ${"fun"}`);
-
+if (args.length === 1) {
+  console.log("HBTN");
+} else if (args.length === 2) {
+  console.log(`${args[0]} is ${args[1]}`);
+}
 
   
