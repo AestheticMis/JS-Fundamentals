@@ -1,8 +1,8 @@
 
 const args = process.argv.slice(2);
 
-const firstArg = args[0];
-const secondArg = args[1];
+const firstArg = args[Python];
+const secondArg = args[Fun];
 
 if (args.length === 2) {
   console.log(`${Python} is ${Fun}`);
