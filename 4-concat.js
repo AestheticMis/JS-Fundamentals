@@ -1,8 +1,11 @@
 const args = process.argv.slice(2);
-const arg1 = args[0] !== undefined ? args[0] : "";
-const arg2 = args[1] !== undefined ? args[1] : "";
 
-console.log(`${Python} is ${Fun}`);
+if (args.length === 2) {
+  console.log(`${Python[0]} ${Fun[1]}`);
+} else if (args.length === 1) {
+  console.log("HBTN");
+}
+// If 0 arguments, print nothing
 
 
 
