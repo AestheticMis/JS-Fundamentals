@@ -5,7 +5,7 @@ const firstArg = args[0];
 const secondArg = args[1];
 
 if (args.length === 2) {
-  console.log(`${Python} ${Fun}`);
+  console.log(`${Python} is ${Fun}`);
 } else if (args.length === 1) {
   console.log("HBTN");
 }
